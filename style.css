@@ -182,10 +182,6 @@ p > button:hover {
   width: 224px;
 }
 
-.task-list .task-list__item.task-list__item_edit label {
-  display: none;
-}
-
 
 @media (max-width:768px) {
   .matrix {
