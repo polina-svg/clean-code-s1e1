@@ -168,9 +168,6 @@ p > button:hover {
   color: #888;
 }
 
-.todo__task-list_complete .item .item__edit  {
-  display: none;
-}
 
 /* Edit Task */
 .task-list .task-list__item .item__input {
@@ -180,6 +177,10 @@ p > button:hover {
 .task-list .task-list__item.task-list__item_edit .item__input {
   display: inline-block;
   width: 224px;
+}
+
+.task-list .task-list__item.task-list__item_edit label {
+  display: none;
 }
 
 
